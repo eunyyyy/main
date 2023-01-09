@@ -4,4 +4,4 @@
 | Date       | name      | Link                  |
 | ---------- | --------- | --------------------- |
 | 2023.01.09. | Courage Wine 구경하러 가기 | https://eunyyyy.github.io/main/ |
-||노션 구경하러 가기| https://www.notion.so/eunyyy/Courage-Wine-0390eebefa24424da15c9e0c52b26730 ]
+||노션 구경하러 가기| https://www.notion.so/eunyyy/Courage-Wine-0390eebefa24424da15c9e0c52b26730 |

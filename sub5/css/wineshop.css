@@ -56,7 +56,7 @@ main {
 	width: 1028px;
 	height: 1690px;
 	margin: 160px auto 0;
-	background-image: url(/sub5/img/wineshopbg.png);
+	background-image: url(../img/wineshopbg.png);
 	background-repeat: no-repeat;
 	background-position-x: center;
 	position: relative;

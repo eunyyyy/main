@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+        <link rel="stylesheet" href="https://use.typekit.net/sns2tud.css">
+        <link rel="stylesheet" type="text/css" href="css/winelabel.css" />
+    <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/android-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../main/img/favicon/favicon/manifest.json">
+        <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    <title>Courage Wine</title>
+</head>
+<body>
+    <header>
+        <!-- menu -->
+        <div class="frame">
+            <a href="../index.html" class="frame__title">Courage Wine</a>
+            <nav class="frame__links">
+                <a href="../sub2/winefood.html">Wine with food</a> 
+                <a href="../sub3/winelabel.html">Wine's label </a> 
+                <a href="../sub4/wineglass.html">Wine & Wine Glass</a> 
+                <a href="../sub5/wineshop.html">Wine's shop </a> 
+                <a href="../sub6/contactme.html">Contact me</a> 
+            </nav>
+        </div>
+    </header>
+    <!-- contents - main -->
+    <main>
+        <div id="top">
+            <img src="/sub3/img/wine_label_tip.png" alt="title">
+        </div>
+        <div id="mainwrap">
+            <img src="/sub3/img/label_1.png" alt="Francelabel">
+            <img src="/sub3/img/label_2.png" alt="US label">
+            <img src="/sub3/img/label_3.png" alt="Australia label">
+            <img src="/sub3/img/label_4.png" alt="Spain Italy label">
+            <img src="/sub3/img/label_5.png" alt="Germany label">
+            <img src="/sub3/img/label_6.png" alt="Chile label">
+            <img src="/sub3/img/label_7.png" alt="label">
+            <img src="/sub3/img/label_8.png" alt="comingsoon">
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footerlink1">
+            <a href="https://eunyyy.notion.site/Courage-Wine-0390eebefa24424da15c9e0c52b26730" target="_blank">
+                <p>Notion</p>
+            </a>
+            <a href="mailto:o3okre@gmail.com">
+                <p>Email</p>
+            </a>
+            <a href="https://github.com/" target="_blank">
+                <p>Github</p>
+            </a>
+        </div>
+        <div class="footerlink2">
+                <p>
+                    Copyright 2023 Ella ⓒ All rights reserved
+                </p>
+        </div>
+    </footer>
+
+    <!-- cursor -->
+    <svg class="cursor" width="40" height="40">
+        <circle class="cursor__inner" cx="20" cy="20" r="10" /></svg>
+
+    <!-- js -->
+    <script>
+        $(document).ready(function(){
+            $('.thumb').hover(function(){
+                $('.main_image img').attr('src',$(this).children('img').attr('src'));
+            });
+        })
+        </script>
+
+    <script src="../sub3/js/winelabel.js"></script>
+    <script src="https://tympanus.net/codrops/adpacks/cda_frame.js"></script>
+</body>
+</html>

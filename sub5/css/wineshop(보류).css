@@ -53,144 +53,63 @@ body {
 
 /* contents - main*/
 main {
-	width: 988.32px;
-	height: 827.82px;
-	margin: 0 auto;
+	width: 1028px;
+	height: 1690px;
+	margin: 160px auto 0;
+	background-image: url(../img/wineshopbg.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
 	position: relative;
-	top: 120px;
-	text-align: center;
-	/* border: 1px solid rebeccapurple; */
 }
-main>.top,
-main>.bottom {
+/* main - middle */
+main>#middle img {
 	/* 감싸는 영역 */
-	width: 100%;
-	height: 370px; /*370px*/
+	position: absolute;
+	top: 264px;
+	left: 210px;
+}
+main>#middle>p {
+	/* comingsoon */
+	text-align: center;
+	position: absolute;
+	top: 396px;
+	left: 35%;
+	font-size: 48px;
+	font-family: "winter_sans";
+	color: #000;
 	/* border: 1px solid red; */
 }
-main>.bottom {
-	margin: 100px 0 0 0;
+main>#middle>a p {
+	position: absolute;
+	top: 549px;
+	left: 42%;
+	padding: 20px 40px;
+	border-radius: 10px;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
 }
-main>.top>.table,
-main>.bottom>.table {
-	display: inline-block;
-	/* border: 1px solid springgreen; */
-	margin: 0 50px;
+/* main - bottom */
+main>#bottom {
+	width: 1022px;
+	height: 223.71px;
 	position: relative;
+}
+main>#bottom img {
+	position: absolute;
+	top: 1450px;
 	left: 15%;
+	/* border: 1px solid red; */
 }
-/* img */
-main>.top>.table img,
-main>.bottom>.table img {
-	margin: 0 0 40px 0;
-}
-.top>#table_img4> a> img {
-	margin-left: 30px;
-}
-.bottom>#table_img7 a img {
-	margin-left: 20px;
-}
-
-/* change bgcolor */
-.bg {
-	position: fixed;
-	z-index: -2;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	transition: .25s;
-	pointer-events: none;
-}
-/* main-top-img-hover */
-#table_img1>a img:hover {
-	transform: translateY(-40px);
-	background-image: url(../img/wine_1.png);
-	background-repeat: no-repeat;
-	cursor: pointer;
-}
-.top #table_img1:hover ~.bg{
-	background: rgb(255, 212, 118) !important;
-}
-#table_img2>a img:hover {
-	transform: translateY(-40px);
-	background-image: url(../img/wine_2.png);
-	background-repeat: no-repeat;
-	cursor: pointer;
-}
-.top #table_img2:hover ~.bg{
-	background: rgb(255, 203, 203) !important;
-}
-#table_img3>a img:hover {
-	transform: translateY(-40px);
-	background-image: url(../img/wine_3.png);
-	background-repeat: no-repeat;
-	cursor: pointer;
-}
-.top #table_img3:hover ~.bg{
-	background: rgb(138, 179, 255) !important;
-}
-#table_img4>a img:hover{
-	transform: translateY(-40px);
-	background-image: url(../img/wine_4.png);
-	background-repeat: no-repeat;
-	cursor: pointer;
-}
-.top #table_img4:hover ~.bg{
-	background: #fffeb9 !important;
-}
-
-/* main-bottom-img-hover */
-#table_img5>a img:hover {
-	transform: translateY(-40px);
-	background-image: url(../img/wine_5.png);
-	background-repeat: no-repeat;
-	cursor: pointer;
-}
-.bottom #table_img5:hover ~.bg{
-	background: #ffb342 !important;
-}
-#table_img6>a img:hover {
-	transform: translateY(-40px);
-	background-image: url(../img/wine_6.png);
-	background-repeat: no-repeat;
-	cursor: pointer;
-}
-.bottom #table_img6:hover ~.bg{
-	background: #19a3ff !important;
-}
-#table_img7>a img:hover {
-	transform: translateY(-40px);
-	background-image: url(../img/wine_7.png);
-	background-repeat: no-repeat;
-	cursor: pointer;
-}
-.bottom #table_img7:hover ~.bg{
-	background: #dfb9ff !important;
-}
-#table_img8>a img:hover {
-	transform: translateY(-40px);
-	background-image: url(../img/wine_8.png);
-	background-repeat: no-repeat;
-	cursor: pointer;
-}
-.bottom #table_img8:hover ~.bg{
-	background: #ff245b !important;
-}
-/* text */
-main>.top>.table:hover {
+main>#bottom p {
+	text-align: center;
+	position: absolute;
+	top: 1560px;
+	left: 3.5%;
+	line-height: 60px;
+	font-size: 36px;
 	color: #000;
 }
-main>.top>.table:hover p {
-	transform: scale(1.25);
-}
-main>.bottom>.table:hover {
-	color: #000;
-}
-main>.bottom>.table:hover p {
-	transform: scale(1.25);
-}
-
 /* menu hover */
 .frame__links {
 	display: inline;
@@ -216,7 +135,7 @@ footer {
 	width: 100%;
 	height: 150px;
 	background: #000;
-	margin-top: 250px;
+	margin-top: 100px;
 	padding: 40px;
 	text-align: center;
 }
